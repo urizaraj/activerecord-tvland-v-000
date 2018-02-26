@@ -1,5 +1,5 @@
 class Character < ActiveRecord::Base
   belongs_to :actor
-  has_many :shows
+  belongs_to :show
 
 end
